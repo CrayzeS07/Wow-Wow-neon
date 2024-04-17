@@ -33,16 +33,16 @@ const ContactPage: NextPage = () => {
         <div className="flex justify-center">
           <div className="flex gap-[250px]">
             <div className="flex justify-center mt-[50px]">
-              <div className="w-[600px] h-[320px] mt-[80px] rounded-[30px] bg-[#ffffff36]">
+              <div className="w-[600px] h-[320px] mt-[80px] rounded-[30px] border border-[#9494946b] bg-[#ffffff36]">
                 <div className="p-[30px]">
-                  <button className="w-[100%] h-[60px] bg-[#E75F53] text-[20px] font-semibold rounded-[20px] text-[#A8A8A8]">
+                  <button className="w-[100%] h-[60px] bg-[#E75F53] text-[20px] font-semibold rounded-[20px] border border-[#b8b0b0be] text-[#ffffff]">
                     e-mail
                   </button>
-                  <button className=" mt-[40px] w-[100%] h-[60px] bg-[#415CA0] text-[20px] font-semibold rounded-[20px] text-[#fff]">
+                  <button className=" mt-[40px] w-[100%] h-[60px] bg-[#415CA0] text-[20px] font-semibold border border-[#b8b0b0be] rounded-[20px] text-[#fff]">
                     Facebook
                   </button>
-                  <button className=" mt-[40px] w-[100%] h-[60px] bg-[#0088CC] text-[20px] font-semibold rounded-[20px] text-[#fff]">
-                  telegram
+                  <button className=" mt-[40px] w-[100%] h-[60px] bg-[#0088CC] text-[20px] font-semibold border border-[#b8b0b0be] rounded-[20px] text-[#fff]">
+                    telegram
                   </button>
                 </div>
               </div>
